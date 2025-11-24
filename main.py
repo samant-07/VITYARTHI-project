@@ -16,15 +16,15 @@ while z=='y':
     print("6:Exit")
     a=int(input("Enter your choice:"))
     if a==1:
-        Create_account.create_account(dict)
+        create_account.create_account(dict)
     elif a==2:
-        Deposit_amount.deposit_amount(dict)
+        deposit_amount.deposit_amount(dict)
     elif a==3:
-        Withdraw_amount.withdraw_amount(dict)
+        withdraw_amount.withdraw_amount(dict)
     elif a==4:
-        Display_account.display_account(dict)
+        display_account.display_account(dict)
     elif a==5:
-        Delete_account.delete_account(dict)
+        delete_account.delete_account(dict)
     elif a==6:
         z='n'
         print("Bank management system exited")
@@ -32,3 +32,4 @@ while z=='y':
     else:
         print("Invalid choice")
     
+
